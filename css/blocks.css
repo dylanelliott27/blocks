@@ -1,0 +1,417 @@
+/* -- editor -- */
+
+.wp-block {
+    max-width: 100% !important;
+}
+
+@media (min-width: 782px) {
+    .interface-complementary-area {
+        width: 400px !important;
+    }
+}
+
+.block-editor .echo-info {
+    background-color: #2f3037 !important;
+}
+
+.block-editor .custom-card-row {
+    display: flex;
+    gap: 40px;
+}
+
+.block-editor .case-study-expand {
+    border: none;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    background: linear-gradient(#fff,#fff), linear-gradient(#fff,#fff), #26CDC0;
+    background-position: center;
+    background-size: 50% 2px,2px 50%;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.block-editor .case-study-header  {
+    position: relative;
+}
+
+.block-editor .case-study-body span {
+    color: black !important;
+}
+
+.block-editor .custom-container-cards {
+    padding: 100px;
+}
+
+.block-editor .tall-card-title {
+    font-size: 50px;
+}
+
+.block-editor .tall-card {
+    background-color: #f3f3f3;
+}
+
+.block-editor .full-width-dropdown .case-study-card {
+    background-color: #f3f3f3;
+}
+
+.block-editor .current-drawings {
+    background-color: black;
+}
+
+.block-editor .current-drawings .case-study-card {
+    background-color: white;
+}
+
+.block-editor .custom-card-row .custom-col {
+    background-color: #f3f3f3;
+    width: 22.75%;
+    padding: 20px 20px;
+}
+
+.block-editor .big-orange-title {
+    font-weight: bold;
+    font-size: clamp(50px, 5vw, 50px) !important;
+    text-align: center;
+    font-family: 'oswald';
+    text-shadow: 0em 0.1em 0.1em #000000;
+    color: #f69221;
+    word-break: break-all;
+}
+
+.block-editor .blue-banner-text {
+    background-color: #005aab;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.block-editor .drawing-conversion-card.drawing-conversion-card{
+    font-family: 'montserrat';
+    background-color: #f3f3f3;
+    height: 100%;
+    word-break: break-word;
+    border-radius: 10px;
+}
+
+.block-editor .drawing-conversion-card > h4{
+    font-weight: bold;
+    padding-top: 50px!important;
+    padding-right: 20px!important;
+    padding-bottom: 0px!important;
+    padding-left: 20px!important;
+    margin-bottom: 20px!important;
+}
+
+.block-editor .drawing-conversion-card > h4{
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+.block-editor .drawing-conversion-card > p{
+    color: white;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px !important;
+    text-align: center;
+    font-family: 'lato';
+    font-size: 19px;
+}
+.block-editor .drawing-conversion-card > img{
+    padding-bottom: 20px;
+}
+
+.block-editor .card-img{
+    /* was height: 126px */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.block-editor .card-img{
+    width: 200px;
+    max-width: 100%;
+}
+
+.block-editor .card-img > img{
+    height: 100%;
+    width: 100%;
+}
+
+
+/* --- echo ---- */
+
+    /* -- hero -- */
+
+.page-id-40307 .drawing-conversion-card.drawing-conversion-card{
+    font-family: 'montserrat';
+    background-color: #f3f3f3;
+    height: 100%;
+    word-break: break-word;
+    border-radius: 10px;
+}
+
+.page-id-40307 .drawing-conversion-card > h4{
+    font-weight: bold;
+    padding-top: 50px!important;
+    padding-right: 20px!important;
+    padding-bottom: 0px!important;
+    padding-left: 20px!important;
+    margin-bottom: 20px!important;
+}
+
+.page-id-40307 .drawing-conversion-card > h4{
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+.page-id-40307 .drawing-conversion-card > p{
+    color: white;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px !important;
+    text-align: center;
+    font-family: 'lato';
+    font-size: 19px;
+}
+.page-id-40307 .drawing-conversion-card > img{
+    padding-bottom: 20px;
+}
+
+.page-id-40307 .card-img{
+    /* was height: 126px */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.page-id-40307 .card-img{
+    width: 200px;
+    max-width: 100%;
+}
+
+.page-id-40307 .card-img > img{
+    height: 100%;
+    width: 100%;
+}
+
+.hero-block h1 {
+    font-size: 35px;
+    margin-bottom: 31px;
+}
+
+.hero-block h2 {
+    font-size: clamp(35px, 5vw, 51px);
+    margin-bottom: 31px;
+    margin-top: 0px;
+}
+
+
+
+    /* --- two cols block --- */
+
+    @media screen and (max-width : 500px) {
+       .two-cols h1 span, .two-cols h2 span, .two-cols h3 span, .two-cols h4 span, .two-cols h5 span, .two-cols h6 span, .two-cols p span {
+            font-size: 22px !important;
+            line-height: normal !important;
+       }
+        .page-id-40307 .current-drawings  p:first-child > span {
+            font-size: 22px !important;
+            line-height: normal !important;
+        }
+    }
+
+    .two-cols h1, .two-cols h2, .two-cols h3, .two-cols h4, .two-cols h5, .two-cols h6 {
+        padding-bottom: 0.5rem;
+    }
+
+    .two-cols p {
+        font-weight: 500;
+    }
+
+    .two-cols ul {
+        margin-bottom: 1.5rem;
+    }
+
+
+    /* --- cards row --- */
+
+.card-row .row {
+    justify-content: center;
+    row-gap: 20px;
+}
+
+
+    /* --- tall cards --- */
+
+.page-id-40307 .tall-card {
+    background-color: #f3f3f3;
+    border-radius: 10px;
+}
+.page-id-40307 .tall-card h3{
+    color: #393939;
+}
+
+.page-id-40307 .tall-card-title {
+    color: #393939;
+}
+
+
+    /* --- current drawings ---- */
+.page-id-40307 .current-drawings > .container > .row > p {
+    font-size: calc(20px + 1.5vw);
+}
+
+.page-id-40307 .case-study-body p {
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 30px;
+}
+
+
+
+/* ---- numbered cards ---- */
+.page-id-40307 .tall-card-title > p {
+    font-size: clamp(35px, 5vw, 40px);
+    line-height: 60px;
+}
+
+.page-id-40307 .tall-card-body > p {
+    font-size: 18px;
+}
+
+
+
+/* --- dropdowns --- */
+.case-study-header > * {
+    margin-bottom: 0px;
+}
+
+.page-id-40307 .full-width-dropdown p span {
+    font-weight: 400;
+}
+
+.page-id-40307 .full-width-dropdown p:not(:first-child) {
+    padding-top: 0px !important;
+    padding-bottom: 14px !important;
+}
+
+.page-id-40307 .full-width-dropdown p:last-child {
+    padding-bottom: 14px !important;
+}
+
+
+
+
+/* -- large text lbokc --- */
+
+.large-text-block > * {
+    font-weight: 600;
+    /*line-height: 45px !important;*/
+}
+
+
+.large-text-block h1 span, .large-text-block h2 span, .large-text-block h3 span, .large-text-block h4 span, .large-text-block h5 span, .large-text-block h6 span, .large-text-block p span {
+    /*line-height: 45px !important;*/
+
+}
+
+@media screen and (max-width : 500px) {
+    .large-text-block h1 span, .large-text-block h2 span, .large-text-block h3 span, .large-text-block h4 span, .large-text-block h5 span, .large-text-block h6 span, .large-text-block p span {
+        font-size: 22px !important;
+    }
+}
+
+
+
+
+
+/* -- line height --- */
+
+.line5 {
+    line-height: 5px !important;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.line10 {
+    line-height: 10px !important;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.line15 {
+    line-height: 15px !important;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.line20 {
+    line-height: 20px !important;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.line25 {
+    line-height: 25px !important;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.line30 {
+    line-height: 30px !important;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.line35 {
+    line-height: 35px !important;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.line40 {
+    line-height: 40px !important;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.line45 {
+    line-height: 45px !important;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.line50 {
+    line-height: 50px !important;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.line55 {
+    line-height: 55px !important;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.line60 {
+    line-height: 60px !important;
+    display: inline-block;
+    vertical-align: top;
+}
